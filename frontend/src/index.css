@@ -48,6 +48,8 @@ nav a {
   transition: .3s;
 }
 
-nav a:hover{
+nav a:hover,
+nav a.active {
   color: #e0f;
 }
+
