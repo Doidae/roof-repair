@@ -53,3 +53,13 @@ nav a.active {
   color: #e0f;
 }
 
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f242d;
+  color: #fff;
+  font-size: 100px;
+  font-weight:700;
+}
