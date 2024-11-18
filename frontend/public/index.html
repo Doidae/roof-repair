@@ -48,10 +48,80 @@
           <a href="#services">Services</a>
         </nav>
       </header>
+      <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+      
+        section {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 20px;
+        }
+      
+        h1, h2 {
+          color: #00698f;
+        }
+      
+        p {
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+      
+        button {
+          background-color: #00698f;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          font-size: 18px;
+          cursor: pointer;
+        }
+      
+        button:hover {
+          background-color: #003d5c;
+        }
+      
+        #home {
+          background-color: #f7f7f7;
+          padding: 40px;
+        }
+      
+        #aboutus {
+          background-color: #fff;
+          padding: 40px;
+        }
+      
+        #services {
+          background-color: #f7f7f7;
+          padding: 40px;
+        }
+      </style>
+      
 
-      <section id="home"> Home </section>
-      <section id="aboutme"> About Our Roofing Company </section>
-      <section id="services"> Roof Repair & Services </section>
+      <section id="home">
+         <h1>Welcome to Martin's Roof Repair</h1>
+         <p>We specialize in providing top-notch roofing solutions for your home or business</p>
+         <button> Get A Quote</button>
+      </section>
+
+      <section id="aboutme">
+        <h2>About Our Roofing Company</h2>
+        <p>We've been roofing for 25 years, providing reliable and afforedable roofing services.</p>
+      </section>
+
+
+      <section id="services">
+        <h2>Roof Repair & Installation Services</h2>
+        <ul>
+          <li>Roof leak repair</li>
+          <li>Roof replacement</li>
+          <li>Roof inspection</li>
+        </ul>
+        <p>Contact us today to learn more about our services and schedule an appointment</p>
+      </section>
 
       <script src="navbarLogic.js"></script>
   </body>
